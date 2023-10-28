@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex09\\Desktop\\PRIA\\Programación en C#\\listas\\listas.csproj",
-      "projectName": "listas",
-      "projectPath": "C:\\Users\\Alex09\\Desktop\\PRIA\\Programación en C#\\listas\\listas.csproj",
+      "projectUniqueName": "C:\\Users\\Alex09\\Desktop\\PRIA\\Sesión 3 - Matemáticas para IA - Sistema de coordenadas\\ej1\\ej1.csproj",
+      "projectName": "ej1",
+      "projectPath": "C:\\Users\\Alex09\\Desktop\\PRIA\\Sesión 3 - Matemáticas para IA - Sistema de coordenadas\\ej1\\ej1.csproj",
       "packagesPath": "C:\\Users\\Alex09\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex09\\Desktop\\PRIA\\Programación en C#\\listas\\obj\\",
+      "outputPath": "C:\\Users\\Alex09\\Desktop\\PRIA\\Sesión 3 - Matemáticas para IA - Sistema de coordenadas\\ej1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex09\\AppData\\Roaming\\NuGet\\NuGet.Config"

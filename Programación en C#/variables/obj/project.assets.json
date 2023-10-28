@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex09\\Downloads\\Nueva carpeta\\variables\\variables.csproj",
+      "projectUniqueName": "C:\\Users\\Alex09\\Desktop\\PRIA\\Programación en C#\\variables\\variables.csproj",
       "projectName": "variables",
-      "projectPath": "C:\\Users\\Alex09\\Downloads\\Nueva carpeta\\variables\\variables.csproj",
+      "projectPath": "C:\\Users\\Alex09\\Desktop\\PRIA\\Programación en C#\\variables\\variables.csproj",
       "packagesPath": "C:\\Users\\Alex09\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex09\\Downloads\\Nueva carpeta\\variables\\obj\\",
+      "outputPath": "C:\\Users\\Alex09\\Desktop\\PRIA\\Programación en C#\\variables\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex09\\AppData\\Roaming\\NuGet\\NuGet.Config"
