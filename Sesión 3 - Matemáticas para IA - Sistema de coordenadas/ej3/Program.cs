@@ -7,14 +7,14 @@ namespace Distancia
         static void Main(string[] args)
         {
             // Distancia 2D
-            Punto2D punto1 = new Punto2D(1, 2);
-            Punto2D punto2 = new Punto2D(3, 4);
+            Punto2D punto1 = new Punto2D(-1, -3);
+            Punto2D punto2 = new Punto2D(5, 7);
             double distancia2D = punto1.Distancia(punto2);
             System.Console.WriteLine($"Distancia 2D: {distancia2D}");
 
             // Distancia 3D
-            Punto3D punto3 = new Punto3D(1, 2, 3);
-            Punto3D punto4 = new Punto3D(4, 5, 6);
+            Punto3D punto3 = new Punto3D(-3, 4, -2);
+            Punto3D punto4 = new Punto3D(2, 6, 3);
             double distancia3D = punto3.Distancia(punto4);
             System.Console.WriteLine($"Distancia 3D: {distancia3D}");
         }
