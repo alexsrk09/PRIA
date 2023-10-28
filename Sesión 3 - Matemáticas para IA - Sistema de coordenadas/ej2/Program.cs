@@ -1,8 +1,6 @@
 ﻿using System.Linq.Expressions;
 namespace Pitagoras
 // 2.Programa en C# los dos ejercicios de este vídeo sobre el teorema de Pitágoras (fórmula).
-// Calcular hipotenusa
-// Calcular cateto
 {
     class Program
     {
