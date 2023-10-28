@@ -1,4 +1,6 @@
-﻿using System.Linq.Expressions;
+﻿using System;
+using PuntoMedio;
+
 namespace PuntoMedio
 {
     class Program
@@ -6,16 +8,16 @@ namespace PuntoMedio
         static void Main(string[] args)
         {
             // Punto medio 2D
-            double punto1 = new Punto2D(1, 2);
-            double punto2 = new Punto2D(3, 4);
-            double puntoMedio2D = punto1.PuntoMedio(punto2);
-            System.Console.WriteLine($"Punto medio 2D: {puntoMedio2D}");
+            Punto2D punto1 = new Punto2D(1, 2);
+            Punto2D punto2 = new Punto2D(3, 4);
+            Punto2D puntoMedio2D = punto1.PuntoMedio(punto2);
+            Console.WriteLine($"Punto medio 2D: {puntoMedio2D}");
 
             // Punto medio 3D
-            double punto3 = new Punto3D(1, 2, 3);
-            double punto4 = new Punto3D(4, 5, 6);
-            double puntoMedio3D = punto3.PuntoMedio(punto4);
-            System.Console.WriteLine($"Punto medio 3D: {puntoMedio3D}");
+            Punto3D punto3 = new Punto3D(1, 2, 3);
+            Punto3D punto4 = new Punto3D(4, 5, 6);
+            Punto3D puntoMedio3D = punto3.PuntoMedio(punto4);
+            Console.WriteLine($"Punto medio 3D: {puntoMedio3D}");
         }
     }
 
