@@ -6,15 +6,15 @@ namespace PuntoMedio
         static void Main(string[] args)
         {
             // Punto medio 2D
-            var punto1 = new Punto2D(1, 2);
-            var punto2 = new Punto2D(3, 4);
-            var puntoMedio2D = punto1.PuntoMedio(punto2);
+            double punto1 = new Punto2D(1, 2);
+            double punto2 = new Punto2D(3, 4);
+            double puntoMedio2D = punto1.PuntoMedio(punto2);
             System.Console.WriteLine($"Punto medio 2D: {puntoMedio2D}");
 
             // Punto medio 3D
-            var punto3 = new Punto3D(1, 2, 3);
-            var punto4 = new Punto3D(4, 5, 6);
-            var puntoMedio3D = punto3.PuntoMedio(punto4);
+            double punto3 = new Punto3D(1, 2, 3);
+            double punto4 = new Punto3D(4, 5, 6);
+            double puntoMedio3D = punto3.PuntoMedio(punto4);
             System.Console.WriteLine($"Punto medio 3D: {puntoMedio3D}");
         }
     }
