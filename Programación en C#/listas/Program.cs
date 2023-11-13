@@ -133,20 +133,18 @@ static void ej11(){
         }
     }
 }
-// 14. Dado un número con más de 10 dígitos, suma los 3 primeros dígitos y los 3 últimos dígitos.
+// 14. Dado un número almacenado en una lista con más de 10 dígitos, suma los 3 primeros dígitos y los 3 últimos dígitos.
 static void ej12(){
-    int numero=1234567890;
+    List<int> vector=new List<int>{1,2,3,4,5,6,7,8,9,10};
     int suma=0;
     int suma2=0;
-    string numero2=numero.ToString();
     for(int i=0;i<3;i++){
-        suma+=int.Parse(numero2[i].ToString());
-    }
-    for(int i=numero2.Length-1;i>numero2.Length-4;i--){
-        suma2+=int.Parse(numero2[i].ToString());
+        suma+=vector[i];
+        suma2+=vector[vector.Count-1-i];
     }
     Console.WriteLine(suma+suma2);
 }
+ej12();
 // 15. Dada una serie de palabras, ordénalas alfabéticamente.
 static void ej13(){
     List<string> vector=new List<string>{"hola","adios","buenas","tardes"};
