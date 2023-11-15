@@ -144,7 +144,6 @@ static void ej12(){
     }
     Console.WriteLine(suma+suma2);
 }
-ej12();
 // 15. Dada una serie de palabras, ordénalas alfabéticamente.
 static void ej13(){
     List<string> vector=new List<string>{"hola","adios","buenas","tardes"};
